@@ -2,10 +2,45 @@ body {
 	background-color: #13459a;
 }
 
+
 h1 {
 	color: white;
+	text-shadow: 1px 1px 2px black;
 }
+
 
 p {
 	color: lightgray;
+}
+
+
+a:link {
+	color: orange;
+	text-decoration: none;
+	text-shadow: 1px 1px 2px white;
+}
+
+
+a:visited {
+	color: pink;
+	text-decoration: none;
+	text-shadow: 1px 1px 2px green;
+}
+
+
+a:active {
+	color: lightgray;
+	text-decoration: underline;
+	text-decoration-color: white;
+	text-decoration-style: double;
+	text-shadow: 1px 1px 2px black;
+}
+
+
+a:hover {
+	color: lightgreen;
+	text-decoration: underline;
+	text-decoration-color: white;
+	text-decoration-style: double;
+	text-shadow: 1px 1px 2px black;
 }
