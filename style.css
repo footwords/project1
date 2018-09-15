@@ -81,3 +81,10 @@ a:hover {
 	margin-bottom: 20px;
 	font-size: 20px;
 }
+.longText {
+	width: 60%;
+	margin: auto;
+}
+.head {
+	text-align: center;
+}
