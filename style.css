@@ -8,39 +8,71 @@ h1 {
 	text-shadow: 1px 1px 2px black;
 }
 
+h2 {
+	color: white;
+	margin: auto;
+}
 
 p {
 	color: lightgray;
+}
+
+table {
+	background-color: #333333;
+	border: 2px #EEEEEE solid;
+	border-collapse: collapse;
+	width: 60%;
+	margin: auto;
+}
+
+tr:nth-child(even) {
+	background-color: #252525;
+}
+
+th, td {
+	padding: 10px;
+	text-align: center;
+	font-family: arial;
+}
+
+th {
+	border: 1px #252525 solid;
+	background-color: #EEEEEE;
+	color: #252525;
+	font-size: 20px;
+}
+
+td {
+	border: 1px #EEEEEE solid;
+	color: #d1d1d1;
 }
 
 
 a:link {
 	color: orange;
 	text-decoration: none;
-	text-shadow: 1px 1px 2px white;
 }
 
 
 a:visited {
-	color: pink;
+	color: orange;
 	text-decoration: none;
-	text-shadow: 1px 1px 2px green;
 }
 
 
 a:active {
 	color: lightgray;
 	text-decoration: underline;
-	text-decoration-color: white;
-	text-decoration-style: double;
 	text-shadow: 1px 1px 2px black;
 }
 
 
 a:hover {
-	color: lightgreen;
+	color: lightgray;
 	text-decoration: underline;
-	text-decoration-color: white;
-	text-decoration-style: double;
 	text-shadow: 1px 1px 2px black;
+}
+
+.centerText {
+	text-align: center;
 }
